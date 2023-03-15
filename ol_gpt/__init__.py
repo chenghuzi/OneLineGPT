@@ -101,7 +101,8 @@ def gpt_talk(session: PromptSession, console: Console):
 
 def launch_olgpt():
     parser = argparse.ArgumentParser()
-    parser.add_argument("command")
+    parser.add_argument(
+        "command", help="Command to run, either 'search'/'s' or 'chat'/'c'. ")
     args = parser.parse_args()
 
     get_config()
