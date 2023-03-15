@@ -5,7 +5,7 @@ A command line tool used to perform search or talk with GPT3.5.
 Install:
 
 ```
-pip install olgpt
+pip install ol-gpt
 ```
 
 Run `search` mode: Contextless chat with GPT, no history, cheaper.
