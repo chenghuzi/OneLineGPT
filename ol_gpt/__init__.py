@@ -112,7 +112,7 @@ def launch_olgpt():
 
     if args.command in ("search", "s"):
         gpt_search(session, console)
-    elif args.command in ("talk", "t"):
+    elif args.command in ("chat", "c"):
         gpt_talk(session, console)
     else:
         raise KeyError("No such command")
